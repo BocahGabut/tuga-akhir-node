@@ -6,27 +6,27 @@
 
 `POST |  /users/register` 
 
-| Key       | Value          |
-| --------- | -----------    |
-| name      | Admin          |
-| email     | admin@admin.com|
-| password  | password       |
-| phone     | +947187520     |
-| isAdmin   | true           |
-| street    | Main Street    |
-| apartment | Block C        |
-| zip       | 10870          |
-| city      | Colombo        |
-| country   | SriLanka       |
+| Key       | Value                 |
+| --------- | -----------           |
+| name      | Admin                 |
+| email     | admin@gmail.com       |
+| password  | password123           |
+| phone     | +8821787218821        |
+| isAdmin   | true                  |
+| street    | Main Street           |
+| apartment | Block C               |
+| zip       | 10870                 |
+| city      | Colombo               |
+| country   | SriLanka              |
 
 ### * Login User
 
 `POST |  /users/login` 
 
-| Key        | Value          |
-| ---------  | -----------    |
-| email      | admin@admin.com|
-| password   | password       |
+| Key        | Value                |
+| ---------  | -----------          |
+| email      | admin@gmail.com      |
+| password   | password123          |
 
 ### * Get Users
 
@@ -68,11 +68,11 @@
 
 `PUT |  /categories/{id}` 
 
-| Key   | Value      |
-| ------| ---------- |
-| name  | Category 1 |
-| icon  | icon-health|
-| color | #55879     |
+| Key   | Value             |
+| ------| ----------        |
+| name  | Category 1        |
+| icon  | icon-health-edit  |
+| color | #55879            |
 
 ### * Delete Category
 
@@ -151,20 +151,24 @@
 {
 	"orderItems":[
 		{
-			"quantity": 3,
-			"product" : "602e9c348e700335d8532b14"
+			"quantity": 2,
+			"product" : "238883b27s27732hs28832x2823"
 		},
 			{
-			"quantity": 2,
+			"quantity": 23,
+			"product" : "a88awdh2882ejd28823hd2822j"
+		},
+			{
+			"quantity": 21,
 			"product" : "602bde0161fcc409fc149734"
 		}
 	],
-	"shippingAddress1" : "No 45,Park Street",
-	"shippingAddress2" : "No 46,Main Street",
-	"city" : "Colombo",
-	"zip" : "10600t",
-	"country" : "Sri Lanka",
-	"phone" : "+94717185748",
+	"shippingAddress1" : "Cirebon No 170 ",
+	"shippingAddress2" : "Cirebon No 170",
+	"city" : "Cirebon",
+	"zip" : "45113",
+	"country" : "Indonesia",
+	"phone" : "+8621881217121",
 	"user" : "602e9b718e700335d8532b13"
 }
 ```
